@@ -1,0 +1,27 @@
+{
+  "name": "mcs-7-advanced-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "minifyCss": "npx postcss src/css/styles.css > src/css/styles.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olexiy-repin/MCS-7-Advanced-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olexiy-repin/MCS-7-Advanced-JS/issues"
+  },
+  "homepage": "https://github.com/Olexiy-repin/MCS-7-Advanced-JS#readme",
+  "dependencies": {
+    "postcss": "^8.5.3"
+  },
+  "devDependencies": {
+    "cssnano": "^7.0.6",
+    "postcss-cli": "^11.0.0"
+  }
+}
